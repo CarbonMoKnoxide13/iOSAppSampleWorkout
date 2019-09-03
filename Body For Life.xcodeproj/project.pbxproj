@@ -14,6 +14,26 @@
 		865F1F1322BDC04F0096E5D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865F1F1122BDC04F0096E5D3 /* LaunchScreen.storyboard */; };
 		865F1F1E22BDC04F0096E5D3 /* Body_For_LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F1D22BDC04F0096E5D3 /* Body_For_LifeTests.swift */; };
 		865F1F2922BDC04F0096E5D3 /* Body_For_LifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F2822BDC04F0096E5D3 /* Body_For_LifeUITests.swift */; };
+		865F1F3722BDC18E0096E5D3 /* WorkoutSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F3622BDC18E0096E5D3 /* WorkoutSelectionViewController.swift */; };
+		865F1F3922BDC4E70096E5D3 /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F3822BDC4E70096E5D3 /* WorkoutCell.swift */; };
+		865F1F3D22BFDE130096E5D3 /* EditWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F3C22BFDE130096E5D3 /* EditWorkoutViewController.swift */; };
+		865F1F3F22BFE0260096E5D3 /* EditWorkoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F3E22BFE0260096E5D3 /* EditWorkoutButton.swift */; };
+		865F1F4122C3D5520096E5D3 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F4022C3D5520096E5D3 /* ExerciseCell.swift */; };
+		865F1F4A22C518710096E5D3 /* RepsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F4922C518710096E5D3 /* RepsCell.swift */; };
+		865F1F4C22C51D470096E5D3 /* RepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F4B22C51D470096E5D3 /* RepsViewController.swift */; };
+		865F1F4E22C525CA0096E5D3 /* EditRepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F4D22C525CA0096E5D3 /* EditRepViewController.swift */; };
+		865F1F8E22C7D8F60096E5D3 /* Body_For_Life.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F8C22C7D8F60096E5D3 /* Body_For_Life.xcdatamodeld */; };
+		865F1F9522C90FB60096E5D3 /* Workout+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F8F22C90FB60096E5D3 /* Workout+CoreDataClass.swift */; };
+		865F1F9622C90FB60096E5D3 /* Workout+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F9022C90FB60096E5D3 /* Workout+CoreDataProperties.swift */; };
+		865F1F9922C90FB60096E5D3 /* Rep+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F9322C90FB60096E5D3 /* Rep+CoreDataClass.swift */; };
+		865F1F9A22C90FB60096E5D3 /* Rep+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F9422C90FB60096E5D3 /* Rep+CoreDataProperties.swift */; };
+		865F1F9D22C916A90096E5D3 /* Exercise+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F9B22C916A90096E5D3 /* Exercise+CoreDataClass.swift */; };
+		865F1F9E22C916A90096E5D3 /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F9C22C916A90096E5D3 /* Exercise+CoreDataProperties.swift */; };
+		865F1FA022C9BC270096E5D3 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F1F9F22C9BC270096E5D3 /* WorkoutViewController.swift */; };
+		86C9F2D622F1FB2A00E64C1B /* Rep+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9F2D522F1FB2A00E64C1B /* Rep+CoreDataProperties.swift */; };
+		86CBF714230B86E200B15C1D /* dumbbellIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 86CBF713230B86E100B15C1D /* dumbbellIcon.png */; };
+		86CBF71623148B1400B15C1D /* DeleteTableViewRowAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CBF71523148B1400B15C1D /* DeleteTableViewRowAction.swift */; };
+		86CBF71C231606B000B15C1D /* EditUserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CBF71B231606B000B15C1D /* EditUserDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +67,26 @@
 		865F1F2422BDC04F0096E5D3 /* Body For LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Body For LifeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		865F1F2822BDC04F0096E5D3 /* Body_For_LifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body_For_LifeUITests.swift; sourceTree = "<group>"; };
 		865F1F2A22BDC04F0096E5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865F1F3622BDC18E0096E5D3 /* WorkoutSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSelectionViewController.swift; sourceTree = "<group>"; };
+		865F1F3822BDC4E70096E5D3 /* WorkoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCell.swift; sourceTree = "<group>"; };
+		865F1F3C22BFDE130096E5D3 /* EditWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWorkoutViewController.swift; sourceTree = "<group>"; };
+		865F1F3E22BFE0260096E5D3 /* EditWorkoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWorkoutButton.swift; sourceTree = "<group>"; };
+		865F1F4022C3D5520096E5D3 /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
+		865F1F4922C518710096E5D3 /* RepsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepsCell.swift; sourceTree = "<group>"; };
+		865F1F4B22C51D470096E5D3 /* RepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepsViewController.swift; sourceTree = "<group>"; };
+		865F1F4D22C525CA0096E5D3 /* EditRepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRepViewController.swift; sourceTree = "<group>"; };
+		865F1F8D22C7D8F60096E5D3 /* Body_For_Life.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Body_For_Life.xcdatamodel; sourceTree = "<group>"; };
+		865F1F8F22C90FB60096E5D3 /* Workout+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Workout+CoreDataClass.swift"; sourceTree = "<group>"; };
+		865F1F9022C90FB60096E5D3 /* Workout+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Workout+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		865F1F9322C90FB60096E5D3 /* Rep+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rep+CoreDataClass.swift"; sourceTree = "<group>"; };
+		865F1F9422C90FB60096E5D3 /* Rep+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rep+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		865F1F9B22C916A90096E5D3 /* Exercise+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataClass.swift"; sourceTree = "<group>"; };
+		865F1F9C22C916A90096E5D3 /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		865F1F9F22C9BC270096E5D3 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		86C9F2D522F1FB2A00E64C1B /* Rep+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Rep+CoreDataProperties.swift"; path = "Body For Life/Model/Rep+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		86CBF713230B86E100B15C1D /* dumbbellIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dumbbellIcon.png; sourceTree = "<group>"; };
+		86CBF71523148B1400B15C1D /* DeleteTableViewRowAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteTableViewRowAction.swift; sourceTree = "<group>"; };
+		86CBF71B231606B000B15C1D /* EditUserDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +117,7 @@
 		865F1EFC22BDC04C0096E5D3 = {
 			isa = PBXGroup;
 			children = (
+				86C9F2D522F1FB2A00E64C1B /* Rep+CoreDataProperties.swift */,
 				865F1F0722BDC04C0096E5D3 /* Body For Life */,
 				865F1F1C22BDC04F0096E5D3 /* Body For LifeTests */,
 				865F1F2722BDC04F0096E5D3 /* Body For LifeUITests */,
@@ -103,6 +144,11 @@
 				865F1F0F22BDC04F0096E5D3 /* Assets.xcassets */,
 				865F1F1122BDC04F0096E5D3 /* LaunchScreen.storyboard */,
 				865F1F1422BDC04F0096E5D3 /* Info.plist */,
+				86CBF713230B86E100B15C1D /* dumbbellIcon.png */,
+				865F1F4522C516D90096E5D3 /* Controller */,
+				865F1F4422C516CD0096E5D3 /* View */,
+				865F1F4622C516F70096E5D3 /* Model */,
+				865F1F8C22C7D8F60096E5D3 /* Body_For_Life.xcdatamodeld */,
 			);
 			path = "Body For Life";
 			sourceTree = "<group>";
@@ -123,6 +169,44 @@
 				865F1F2A22BDC04F0096E5D3 /* Info.plist */,
 			);
 			path = "Body For LifeUITests";
+			sourceTree = "<group>";
+		};
+		865F1F4422C516CD0096E5D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				865F1F3822BDC4E70096E5D3 /* WorkoutCell.swift */,
+				865F1F3E22BFE0260096E5D3 /* EditWorkoutButton.swift */,
+				865F1F4022C3D5520096E5D3 /* ExerciseCell.swift */,
+				865F1F4922C518710096E5D3 /* RepsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		865F1F4522C516D90096E5D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				865F1F3622BDC18E0096E5D3 /* WorkoutSelectionViewController.swift */,
+				865F1F3C22BFDE130096E5D3 /* EditWorkoutViewController.swift */,
+				865F1F4B22C51D470096E5D3 /* RepsViewController.swift */,
+				865F1F4D22C525CA0096E5D3 /* EditRepViewController.swift */,
+				865F1F9F22C9BC270096E5D3 /* WorkoutViewController.swift */,
+				86CBF71523148B1400B15C1D /* DeleteTableViewRowAction.swift */,
+				86CBF71B231606B000B15C1D /* EditUserDataViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		865F1F4622C516F70096E5D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				865F1F9B22C916A90096E5D3 /* Exercise+CoreDataClass.swift */,
+				865F1F9C22C916A90096E5D3 /* Exercise+CoreDataProperties.swift */,
+				865F1F8F22C90FB60096E5D3 /* Workout+CoreDataClass.swift */,
+				865F1F9022C90FB60096E5D3 /* Workout+CoreDataProperties.swift */,
+				865F1F9322C90FB60096E5D3 /* Rep+CoreDataClass.swift */,
+				865F1F9422C90FB60096E5D3 /* Rep+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +316,7 @@
 				865F1F1322BDC04F0096E5D3 /* LaunchScreen.storyboard in Resources */,
 				865F1F1022BDC04F0096E5D3 /* Assets.xcassets in Resources */,
 				865F1F0E22BDC04C0096E5D3 /* Main.storyboard in Resources */,
+				86CBF714230B86E200B15C1D /* dumbbellIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +341,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86CBF71C231606B000B15C1D /* EditUserDataViewController.swift in Sources */,
+				865F1F4C22C51D470096E5D3 /* RepsViewController.swift in Sources */,
+				865F1F9A22C90FB60096E5D3 /* Rep+CoreDataProperties.swift in Sources */,
+				865F1F9E22C916A90096E5D3 /* Exercise+CoreDataProperties.swift in Sources */,
+				865F1F9522C90FB60096E5D3 /* Workout+CoreDataClass.swift in Sources */,
+				865F1F9D22C916A90096E5D3 /* Exercise+CoreDataClass.swift in Sources */,
+				865F1F9622C90FB60096E5D3 /* Workout+CoreDataProperties.swift in Sources */,
+				86C9F2D622F1FB2A00E64C1B /* Rep+CoreDataProperties.swift in Sources */,
+				865F1F3D22BFDE130096E5D3 /* EditWorkoutViewController.swift in Sources */,
 				865F1F0B22BDC04C0096E5D3 /* ViewController.swift in Sources */,
+				865F1F8E22C7D8F60096E5D3 /* Body_For_Life.xcdatamodeld in Sources */,
+				865F1F9922C90FB60096E5D3 /* Rep+CoreDataClass.swift in Sources */,
 				865F1F0922BDC04C0096E5D3 /* AppDelegate.swift in Sources */,
+				865F1F3722BDC18E0096E5D3 /* WorkoutSelectionViewController.swift in Sources */,
+				86CBF71623148B1400B15C1D /* DeleteTableViewRowAction.swift in Sources */,
+				865F1FA022C9BC270096E5D3 /* WorkoutViewController.swift in Sources */,
+				865F1F4A22C518710096E5D3 /* RepsCell.swift in Sources */,
+				865F1F4122C3D5520096E5D3 /* ExerciseCell.swift in Sources */,
+				865F1F3F22BFE0260096E5D3 /* EditWorkoutButton.swift in Sources */,
+				865F1F3922BDC4E70096E5D3 /* WorkoutCell.swift in Sources */,
+				865F1F4E22C525CA0096E5D3 /* EditRepViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +690,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		865F1F8C22C7D8F60096E5D3 /* Body_For_Life.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				865F1F8D22C7D8F60096E5D3 /* Body_For_Life.xcdatamodel */,
+			);
+			currentVersion = 865F1F8D22C7D8F60096E5D3 /* Body_For_Life.xcdatamodel */;
+			path = Body_For_Life.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 865F1EFD22BDC04C0096E5D3 /* Project object */;
 }

@@ -9,8 +9,11 @@
 import Foundation
 import UIKit
 import CoreData
+import UserNotifications
 
 class WorkoutSelectionViewController: EditUserDataViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    var notificationCenter : UNUserNotificationCenter!
     
     func initializeProperties() {
     
@@ -128,7 +131,7 @@ class WorkoutSelectionViewController: EditUserDataViewController, UITableViewDel
             workout.title = textField!.text
             self.save()
             self.tableView.reloadData()
-        }))
+        })) //Pass in declared function
         
         return alert
     }

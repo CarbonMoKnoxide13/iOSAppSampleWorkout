@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,12 +24,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationController.navigationBar.tintColor = UIColor.white
         window?.rootViewController = navigationController
         
+        let center = UNUserNotificationCenter.current()
+        
+        let options: UNAuthorizationOptions = [.alert, .sound]
+        
+        center.requestAuthorization(options: options) {
+            (granted, error) in
+            if !granted {
+                print("Something went wrong")
+            }
+        }
+        
         return true
     }
 
-    func applicationWillResignActive(_ application: UIApplication) {
+    fileprivate func createAndScheduleNotification() {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+        let notificationCenter = UNUserNotificationCenter.current()
+        let content = UNMutableNotificationContent()
+        content.title = "Don't stop now!"
+        content.body = "Today's a perfect day to work out!"
+        content.sound = UNNotificationSound.default
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5,
+                                                        repeats: false)
+        let identifier = "UYLLocalNotification"
+        let request = UNNotificationRequest(identifier: identifier,
+                                            content: content, trigger: trigger)
+        notificationCenter.add(request, withCompletionHandler: { (error) in
+            if let error = error {
+                // Something went wrong
+            }
+        })
+    }
+    
+    func applicationWillResignActive(_ application: UIApplication) {
+        createAndScheduleNotification()
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
